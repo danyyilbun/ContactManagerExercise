@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         ContactManager d = new ContactManager(this);
-   /*     d.addContact(new Contact("Josh","1234567890"));
+        d.addContact(new Contact("Josh","1234567890"));
         d.addContact(new Contact("Josh2","1234567890"));
         d.addContact(new Contact("Josh3","1234567890"));
         d.addContact(new Contact("Josh4","1234567890"));
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         d.addContact(new Contact("Josh11","1234567890"));
         d.addContact(new Contact("Josh12","1234567890"));
         d.addContact(new Contact("Josh13","1234567890"));
-*/
+
 
 
         contactArrayList = (ArrayList<Contact>) d.getAllContacts();
